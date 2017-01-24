@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "",
+    "baseUrl": "/allaboutgrad",
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
