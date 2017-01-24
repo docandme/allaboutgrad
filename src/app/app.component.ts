@@ -5,7 +5,22 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'Tour of Heroes';
-  hero = 'Windstorm';
+  hero = hero;
 }
+
+export class Hero {
+  id: number;
+  name: string;
+  superpower: string;
+  healthpoints: number;
+}
+
+let hero: Hero = {
+  id: 1,
+  name: 'Hellgate',
+  superpower: 'The ability to leap tall buildings.',
+  healthpoints: 35
+};

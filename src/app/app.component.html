@@ -1,6 +1,21 @@
 <h1>
   {{title}}
 </h1>
-<h2>
-  {{hero}}
-</h2>
+<h2>{{hero.name}} Details!</h2>
+<div><label>id: </label>{{hero.id}}</div>
+<div><label>superpower: </label>{{hero.superpower}}</div>
+<div><label>healthpoints: </label>{{hero.healthpoints}}</div>
+<br/>
+<br/>
+<div>
+  <label>name: </label>
+  <input [(ngModel)]="hero.name" placeholder="name">
+</div>
+<div>
+  <label>superpower: </label>
+  <input [(ngModel)]="hero.superpower" placeholder="superpower">
+</div>
+<div>
+  <label>healthpoints: </label>
+  <input [(ngModel)]="hero.healthpoints" placeholder="healthpoints">
+</div>
